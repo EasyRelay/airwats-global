@@ -5,7 +5,7 @@ const contactInfo = [
   {
     icon: Phone,
     label: 'Phone',
-    value: '(513) 331-8905',
+    value: '+1 (513) 331-8905',
     href: 'tel:+15133318905',
   },
   {
