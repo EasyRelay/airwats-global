@@ -26,22 +26,18 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
-          ? 'bg-card/95 backdrop-blur-lg shadow-lg'
-          : 'bg-transparent'
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-[#0a0f1c]`}
     >
-      <div className="container mx-auto px-4 py-4">
+      <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
             <div className="bg-gradient-accent p-2 rounded-lg group-hover:scale-110 transition-transform">
-              <Truck className="w-6 h-6 text-primary-foreground" />
+              <img src="/airwets-logo-small.png" alt="Logo" className="w-26 h-12 text-primary-foreground" />
             </div>
-            <span className="text-xl font-bold text-foreground">
+            {/* <span className="text-xl font-bold text-foreground">
               AirWats Trans LLC
-            </span>
+            </span> */}
           </Link>
 
           {/* Desktop Navigation */}
@@ -82,7 +78,7 @@ const Header = () => {
           <div className="hidden md:block">
             <Button
               onClick={() => scrollToSection('contact')}
-              className="bg-gradient-accent hover:opacity-90 transition-opacity"
+              className="bg-gradient-accent hover:opacity-90 transition-opacity text-white"
             >
               Contact Us
             </Button>
@@ -136,7 +132,7 @@ const Header = () => {
             </button>
             <Button
               onClick={() => scrollToSection('contact')}
-              className="bg-gradient-accent hover:opacity-90 transition-opacity w-full"
+              className="bg-gradient-accent hover:opacity-90 transition-opacity w-full text-white"
             >
               Contact Us
             </Button>

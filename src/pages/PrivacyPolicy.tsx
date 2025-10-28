@@ -1,13 +1,20 @@
 import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { useEffect } from 'react';
+import Footer from '@/components/Footer';
 
 const PrivacyPolicy = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="min-h-screen bg-background">
       <div className="container mx-auto px-4 py-12 max-w-4xl">
         <Link to="/">
-          <Button variant="ghost" className="mb-8">
+          <Button variant="ghost" className="mb-8 hover:bg-primary hover:text-background">
             <ArrowLeft className="w-4 h-4 mr-2" />
             Back to Home
           </Button>
@@ -15,7 +22,6 @@ const PrivacyPolicy = () => {
 
         <article className="prose prose-invert max-w-none">
           <h1 className="text-4xl font-bold mb-4">Privacy Policy</h1>
-          <p className="text-muted-foreground mb-8">Last updated: {new Date().toLocaleDateString()}</p>
 
           <section className="mb-8">
             <h2 className="text-2xl font-bold mb-4">Introduction</h2>
@@ -83,6 +89,25 @@ const PrivacyPolicy = () => {
             </p>
           </section>
 
+          {/* ✅ Yangi qo‘shilgan bo‘lim */}
+          <section className="mb-8">
+            <h2 className="text-2xl font-bold mb-4">RingCentral Integration</h2>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              Our service uses RingCentral's APIs to facilitate communication. When you connect your RingCentral account,
+              we may access and use the following data:
+            </p>
+            <ul className="list-disc pl-6 text-muted-foreground space-y-2">
+              <li>Your RingCentral account information</li>
+              <li>Call and message metadata (not message content)</li>
+              <li>Contact and directory information</li>
+            </ul>
+            <p className="text-muted-foreground leading-relaxed mt-4">
+              We access only the data necessary for service functionality. This data is not shared with third parties
+              except as required to operate the service.
+            </p>
+          </section>
+          {/* ✅ Tugadi */}
+
           <section className="mb-8">
             <h2 className="text-2xl font-bold mb-4">Data Security</h2>
             <p className="text-muted-foreground leading-relaxed">
@@ -117,6 +142,7 @@ const PrivacyPolicy = () => {
           </section>
         </article>
       </div>
+      <Footer/>
     </div>
   );
 };

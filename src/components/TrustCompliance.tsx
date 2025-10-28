@@ -4,7 +4,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Shield, Award, CheckCircle, Copy, Check } from 'lucide-react';
 import { toast } from 'sonner';
-import networkBg from '@/assets/network-bg.jpg';
+import networkBg from '/network-bg.jpg';
 
 const credentials = [
   { label: 'MC Number', value: '1692095' },
@@ -139,7 +139,7 @@ const TrustCompliance = () => {
               >
                 <div className="flex justify-center">
                   <div className="w-16 h-16 bg-gradient-accent rounded-full flex items-center justify-center">
-                    <Icon className="w-8 h-8 text-accent-foreground" />
+                    <Icon className="w-8 h-8 text-primary" />
                   </div>
                 </div>
                 <h3 className="text-xl font-bold">{point.title}</h3>

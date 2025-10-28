@@ -58,7 +58,7 @@ const Contact = () => {
                 >
                   <div className="flex justify-center">
                     <div className="w-16 h-16 bg-gradient-accent rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-                      <Icon className="w-8 h-8 text-accent-foreground" />
+                      <Icon className="w-8 h-8 text-accent-foreground group-hover:text-primary" />
                     </div>
                   </div>
                   <div className="text-sm text-muted-foreground font-medium">{info.label}</div>

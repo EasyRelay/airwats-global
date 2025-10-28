@@ -1,13 +1,20 @@
 import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { useEffect } from 'react';
+import Footer from '@/components/Footer';
 
 const TermsOfService = () => {
+
+  useEffect(() => {
+    window.scrollTo(0,0);
+  },[]);
+  
   return (
     <div className="min-h-screen bg-background">
       <div className="container mx-auto px-4 py-12 max-w-4xl">
         <Link to="/">
-          <Button variant="ghost" className="mb-8">
+          <Button variant="ghost" className="mb-8 hover:bg-primary hover:text-background">
             <ArrowLeft className="w-4 h-4 mr-2" />
             Back to Home
           </Button>
@@ -15,7 +22,6 @@ const TermsOfService = () => {
 
         <article className="prose prose-invert max-w-none">
           <h1 className="text-4xl font-bold mb-4">Terms of Service</h1>
-          <p className="text-muted-foreground mb-8">Last updated: {new Date().toLocaleDateString()}</p>
 
           <section className="mb-8">
             <h2 className="text-2xl font-bold mb-4">Agreement to Terms</h2>
@@ -167,6 +173,7 @@ const TermsOfService = () => {
           </section>
         </article>
       </div>
+      <Footer/>
     </div>
   );
 };

@@ -92,8 +92,8 @@ const HowItWorks = () => {
                   }`}
                 >
                   {/* Icon Circle */}
-                  <div className="relative z-10 w-24 h-24 bg-gradient-accent rounded-full flex items-center justify-center mb-6 shadow-lg transform hover:scale-110 transition-transform">
-                    <Icon className="w-12 h-12 text-accent-foreground" />
+                  <div className="relative z-10 w-24 h-24 bg-gradient-accent rounded-full group hover:shadow-blue-500 flex items-center justify-center mb-6 shadow-lg transform hover:scale-110 transition-transform">
+                    <Icon className="w-12 h-12 text-blue-700 group-hover:text-blue-300" />
                   </div>
 
                   {/* Content */}

@@ -9,10 +9,9 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <div className="bg-gradient-accent p-2 rounded-lg">
-                <Truck className="w-6 h-6 text-accent-foreground" />
+              <div className="bg-gradient-accent p-2 rounded-lg group-hover:scale-110 transition-transform">
+                <img src="/airwets-logo-small.png" alt="Logo" className="w-26 h-12 text-primary-foreground" />
               </div>
-              <span className="text-xl font-bold">AirWats Trans LLC</span>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">
               Professional logistics and freight transportation services across all 50 states.
@@ -119,6 +118,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="text-center text-sm text-muted-foreground">
           <p>&copy; {new Date().getFullYear()} AirWats Trans LLC. All rights reserved.</p>
+          <p>Created by <a href="https://easyit.uz" target="_blank" rel="noopener noreferrer" className='text-primary hover:text-blue-600 transition-colors'>Easy IT</a></p>
         </div>
       </div>
     </footer>
