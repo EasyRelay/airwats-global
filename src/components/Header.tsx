@@ -33,10 +33,10 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
             <div className="bg-gradient-accent p-2 rounded-lg group-hover:scale-110 transition-transform">
-              <img src="/airwets-logo-small.png" alt="Logo" className="w-26 h-12 text-primary-foreground" />
+              <img src="/airways-logo-small.png" alt="Logo" className="w-26 h-12 text-primary-foreground" />
             </div>
             {/* <span className="text-xl font-bold text-foreground">
-              AirWats Trans LLC
+              AirWays Trans LLC
             </span> */}
           </Link>
 

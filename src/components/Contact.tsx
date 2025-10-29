@@ -11,8 +11,8 @@ const contactInfo = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'airwatstransllc@gmail.com',
-    href: 'mailto:airwatstransllc@gmail.com',
+    value: 'airwaystransllc@gmail.com',
+    href: 'mailto:airwaystransllc@gmail.com',
   },
   {
     icon: MapPin,
@@ -82,7 +82,7 @@ const Contact = () => {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="AirWats Trans LLC Location"
+              title="AirWays Trans LLC Location"
             />
           </Card>
         </div>

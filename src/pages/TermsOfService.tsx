@@ -26,7 +26,7 @@ const TermsOfService = () => {
           <section className="mb-8">
             <h2 className="text-2xl font-bold mb-4">Agreement to Terms</h2>
             <p className="text-muted-foreground leading-relaxed">
-              By accessing or using the services provided by AirWats Trans LLC (MC: 1692095, DOT: 4333195), you agree
+              By accessing or using the services provided by AirWays Trans LLC (MC: 1692095, DOT: 4333195), you agree
               to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with
               any of these terms, you are prohibited from using our services.
             </p>
@@ -35,7 +35,7 @@ const TermsOfService = () => {
           <section className="mb-8">
             <h2 className="text-2xl font-bold mb-4">Services Provided</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              AirWats Trans LLC provides logistics and freight transportation services, including:
+              AirWays Trans LLC provides logistics and freight transportation services, including:
             </p>
             <ul className="list-disc pl-6 text-muted-foreground space-y-2">
               <li>Road freight transportation across all 50 states</li>
@@ -79,7 +79,7 @@ const TermsOfService = () => {
           <section className="mb-8">
             <h2 className="text-2xl font-bold mb-4">Liability and Insurance</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              AirWats Trans LLC maintains comprehensive cargo insurance and operates in full compliance with federal
+              AirWays Trans LLC maintains comprehensive cargo insurance and operates in full compliance with federal
               regulations. Our liability is subject to the following terms:
             </p>
             <ul className="list-disc pl-6 text-muted-foreground space-y-2">
@@ -135,7 +135,7 @@ const TermsOfService = () => {
           <section className="mb-8">
             <h2 className="text-2xl font-bold mb-4">Limitation of Liability</h2>
             <p className="text-muted-foreground leading-relaxed">
-              To the maximum extent permitted by law, AirWats Trans LLC shall not be liable for any indirect,
+              To the maximum extent permitted by law, AirWays Trans LLC shall not be liable for any indirect,
               incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether
               incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses.
             </p>
@@ -164,8 +164,8 @@ const TermsOfService = () => {
               For questions regarding these Terms of Service, please contact:
             </p>
             <div className="text-muted-foreground space-y-1">
-              <p>AirWats Trans LLC</p>
-              <p>Email: airwatstransllc@gmail.com</p>
+              <p>AirWays Trans LLC</p>
+              <p>Email: airwaystransllc@gmail.com</p>
               <p>Phone: (513) 331-8905</p>
               <p>Address: 5758 Reflections Way, Mason, OH 45040</p>
               <p>MC: 1692095 | DOT: 4333195 | EIN: 33-2326235</p>

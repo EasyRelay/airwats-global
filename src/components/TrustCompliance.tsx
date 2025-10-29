@@ -9,7 +9,6 @@ import networkBg from '/network-bg.jpg';
 const credentials = [
   { label: 'MC Number', value: '1692095' },
   { label: 'DOT Number', value: '4333195' },
-  { label: 'EIN', value: '33-2326235' },
 ];
 
 const trustPoints = [
@@ -96,7 +95,7 @@ const TrustCompliance = () => {
           {credentials.map((cred, index) => (
             <Card
               key={index}
-              className="gradient-card border-border p-6 min-w-[200px] group hover:border-primary transition-all"
+              className="gradient-card border-border p-6 min-w-[300px] group hover:border-primary transition-all"
               style={{ boxShadow: 'var(--shadow-card)' }}
             >
               <div className="text-center space-y-3">

@@ -35,7 +35,7 @@ const CookiePolicy = () => {
           <section className="mb-8">
             <h2 className="text-2xl font-bold mb-4">How We Use Cookies</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              AirWats Trans LLC uses cookies for several purposes:
+              AirWays Trans LLC uses cookies for several purposes:
             </p>
 
             <h3 className="text-xl font-semibold mb-3">Essential Cookies</h3>
@@ -133,7 +133,7 @@ const CookiePolicy = () => {
               If you have questions about our use of cookies, please contact us:
             </p>
             <div className="text-muted-foreground space-y-1">
-              <p>Email: airwatstransllc@gmail.com</p>
+              <p>Email: airwaystransllc@gmail.com</p>
               <p>Phone: (513) 331-8905</p>
               <p>Address: 5758 Reflections Way, Mason, OH 45040</p>
             </div>

@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <div className="bg-gradient-accent p-2 rounded-lg group-hover:scale-110 transition-transform">
-                <img src="/airwets-logo-small.png" alt="Logo" className="w-26 h-12 text-primary-foreground" />
+                <img src="/airways-logo-small.png" alt="Logo" className="w-26 h-12 text-primary-foreground" />
               </div>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">
@@ -92,10 +92,10 @@ const Footer = () => {
               <li className="flex items-start gap-2">
                 <Mail className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
                 <a
-                  href="mailto:airwatstransllc@gmail.com"
+                  href="mailto:airwaystransllc@gmail.com"
                   className="text-muted-foreground hover:text-primary transition-colors break-all"
                 >
-                  airwatstransllc@gmail.com
+                  airwaystransllc@gmail.com
                 </a>
               </li>
               <li className="flex items-start gap-2">
@@ -117,7 +117,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} AirWats Trans LLC. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} AirWays Trans LLC. All rights reserved.</p>
           <p>Created by <a href="https://easyit.uz" target="_blank" rel="noopener noreferrer" className='text-primary hover:text-blue-600 transition-colors'>Easy IT</a></p>
         </div>
       </div>

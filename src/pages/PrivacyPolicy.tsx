@@ -26,7 +26,7 @@ const PrivacyPolicy = () => {
           <section className="mb-8">
             <h2 className="text-2xl font-bold mb-4">Introduction</h2>
             <p className="text-muted-foreground leading-relaxed">
-              AirWats Trans LLC ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy
+              AirWays Trans LLC ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy
               explains how we collect, use, disclose, and safeguard your information when you use our logistics and
               freight transportation services.
             </p>
@@ -135,7 +135,7 @@ const PrivacyPolicy = () => {
               If you have questions about this Privacy Policy, please contact us:
             </p>
             <div className="text-muted-foreground space-y-1">
-              <p>Email: airwatstransllc@gmail.com</p>
+              <p>Email: airwaystransllc@gmail.com</p>
               <p>Phone: (513) 331-8905</p>
               <p>Address: 5758 Reflections Way, Mason, OH 45040</p>
             </div>
