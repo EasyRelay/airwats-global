@@ -62,7 +62,6 @@ const Hero = () => {
             <div className="flex flex-wrap gap-6 text-sm text-muted-foreground mb-2">
               <span>MC: 1692095</span>
               <span>DOT: 4333195</span>
-              <span>EIN: 33-2326235</span>
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button

@@ -8,21 +8,21 @@ const testimonials = [
     company: 'TechRetail Inc.',
     role: 'Supply Chain Director',
     rating: 5,
-    text: 'AirWays Trans has been instrumental in scaling our e-commerce operations. Their reliable service and real-time tracking have significantly improved our customer satisfaction rates.',
+    text: 'AirWays Transportation has been instrumental in scaling our e-commerce operations. Their reliable service and real-time tracking have significantly improved our customer satisfaction rates.',
   },
   {
     name: 'Michael Chen',
     company: 'Midwest Manufacturing',
     role: 'Operations Manager',
     rating: 5,
-    text: 'We switched to AirWays Trans for our just-in-time deliveries and haven\'t looked back. Their punctuality and professionalism are unmatched in the industry.',
+    text: 'We switched to AirWays Transportation for our just-in-time deliveries and haven\'t looked back. Their punctuality and professionalism are unmatched in the industry.',
   },
   {
     name: 'Jennifer Martinez',
     company: 'Fresh Foods Distributors',
     role: 'Logistics Coordinator',
     rating: 5,
-    text: 'Temperature-controlled shipping is critical for our business, and AirWays Trans delivers consistently. Their specialized equipment and trained staff give us complete peace of mind.',
+    text: 'Temperature-controlled shipping is critical for our business, and AirWays Transportation delivers consistently. Their specialized equipment and trained staff give us complete peace of mind.',
   },
 ];
 

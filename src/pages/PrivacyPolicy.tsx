@@ -26,7 +26,7 @@ const PrivacyPolicy = () => {
           <section className="mb-8">
             <h2 className="text-2xl font-bold mb-4">Introduction</h2>
             <p className="text-muted-foreground leading-relaxed">
-              AirWays Trans LLC ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy
+              AirWays Transportation LLC ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy
               explains how we collect, use, disclose, and safeguard your information when you use our logistics and
               freight transportation services.
             </p>

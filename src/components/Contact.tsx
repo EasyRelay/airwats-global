@@ -82,7 +82,7 @@ const Contact = () => {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="AirWays Trans LLC Location"
+              title="AirWays Transportation LLC Location"
             />
           </Card>
         </div>

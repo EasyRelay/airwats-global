@@ -35,7 +35,7 @@ const CookiePolicy = () => {
           <section className="mb-8">
             <h2 className="text-2xl font-bold mb-4">How We Use Cookies</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              AirWays Trans LLC uses cookies for several purposes:
+              AirWays Transportation LLC uses cookies for several purposes:
             </p>
 
             <h3 className="text-xl font-semibold mb-3">Essential Cookies</h3>

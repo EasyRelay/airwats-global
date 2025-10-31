@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Truck, Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -111,13 +111,12 @@ const Footer = () => {
           <div className="flex flex-wrap justify-center gap-6 text-sm text-muted-foreground mb-4">
             <span>MC: 1692095</span>
             <span>DOT: 4333195</span>
-            <span>EIN: 33-2326235</span>
           </div>
         </div>
 
         {/* Copyright */}
         <div className="text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} AirWays Trans LLC. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} AirWays Transportation LLC. All rights reserved.</p>
           <p>Created by <a href="https://easyit.uz" target="_blank" rel="noopener noreferrer" className='text-primary hover:text-blue-600 transition-colors'>Easy IT</a></p>
         </div>
       </div>

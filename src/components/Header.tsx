@@ -36,7 +36,7 @@ const Header = () => {
               <img src="/airways-logo-small.png" alt="Logo" className="w-26 h-12 text-primary-foreground" />
             </div>
             {/* <span className="text-xl font-bold text-foreground">
-              AirWays Trans LLC
+              AirWays Transportation LLC
             </span> */}
           </Link>
 
